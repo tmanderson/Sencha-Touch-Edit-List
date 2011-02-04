@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0;" />
+	<title>Phone Demo</title>
+	<link href="../sencha/resources/css/sencha-touch.css" type="text/css" rel="stylesheet" />
+	<style type="text/css">
+	
+		.deletebtn {
+			background: url('images/delete.png') no-repeat;
+			float: left;
+			height: 25px;
+			margin-left: -40px;
+			width: 25px;
+		}
+		
+		.finaldeletebtn {
+			background: url('images/finaldelete.png') no-repeat;
+			float: right;
+			height: 25px;
+			opacity: 0;
+			width: 60px;
+			-webkit-transition: opacity 200ms ease-in-out;
+		}
+	
+	</style>
+</head>
+<body>
+	<script src="../sencha/sencha-touch-debug.js" type="text/javascript"></script>
+
+	<div id="sencha-app"> 
+        <!--<script src="app/routes.js" type="text/javascript"></script>-->
+        <script src="app/app.js" type="text/javascript"></script> 
+        
+        <!-- Place your view files here --> 
+        <div id="sencha-views"> 
+            <script src="app/views/Viewport.js" type="text/javascript"></script>
+            <script src="app/views/EditList.js" type="text/javascript"></script>
+        </div> 
+        
+        <!-- Place your model files here --> 
+        <div id="sencha-models"> 
+            
+        </div> 
+        
+        <!-- Place your controller files here --> 
+        <div id="sencha-controllers"> 
+            <script src="app/controllers/Main.js" type="text/javascript"></script>
+        </div> 
+        
+        <!-- Place your store files here --> 
+        <div id="sencha-stores"> 
+            
+        </div> 
+    </div> 
+</body>
+</html>
